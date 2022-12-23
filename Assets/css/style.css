@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
- /* */
+ /* replaced header div with <header> tag on HTMl, and updated the tag in CSS to follow sematic structure */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -71,6 +71,7 @@ p {
     margin-left: 25px;
 }
 
+/*Replaced former <div> with <article> and <aside> to follow sematic structure */
 article {
     width: 75%;
     display: inline-block;
